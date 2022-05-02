@@ -98,7 +98,7 @@ int main (int argc, char *argv[])
 
 	prob.bench=atoi(argv[1]); //for simulation set value 100
 	prob.dim=atoi(argv[2]); // set dimensions of simulator input vector
-	unifactor=ato(argv[3]);  //1; // set global pso variant as default
+	unifactor=atoi(argv[3]);  //1; // set global pso variant as default
 	//ocba.T=30;
 
 
