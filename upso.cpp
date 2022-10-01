@@ -204,7 +204,7 @@ int main (int argc, char *argv[])
 			evaluatePbest(particles, pbest, obj_particles, obj_pbest, prob, algo);//personal best evaluation
 			evaluateLocalbest(particles, lbest, obj_particles, obj_lbest, prob, algo);//neighbourhood best evaluation
 			evaluateGlobalbest(pbest, gbest, obj_pbest, obj_gbest, prob,algo);//global guide evaluation
-			cout << " obj_gbest :  "<< obj_gbest[0] << "\n";
+			//cout << " obj_gbest :  "<< obj_gbest[0] << "\n";
 
 		}
 		fe[l]=*fevals;
