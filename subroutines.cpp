@@ -365,7 +365,7 @@ void evaluateLocalbest (double **particles, double **lbest, double *obj_particle
 				for (l=0;l<prob.dim;l++)
 					lbest[k][l]=particles[k][l];
 				obj_lbest[k]=obj_particles[k];
-				cout << "obj_lbest = " << obj_lbest[k] << "\n";
+				//cout << "obj_lbest = " << obj_lbest[k] << "\n";
 			}
 		}
 	}
