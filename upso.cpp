@@ -211,7 +211,6 @@ int main (int argc, char *argv[])
 		finalvalue[l]=obj_gbest[0];
 		cout << "Final value of "<< l <<"th test is " << finalvalue[l] <<"\n";
 		mean = mean + finalvalue[l];
-	cout << "TEST finalvalue tou test "<< l<<": " << finalvalue[l] <<"\n";
 	}
 //	m=0;
 //	suc=0;
